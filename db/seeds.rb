@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+User.create(name: "Alina")
+Chakra.create(name: "root", symbol: "https://7wisdoms.org/wp-content/uploads/2018/06/root-chakra-symbol-296x300.png", description: "sample description")
+Question.create(user_id: 1, chakra_id: 1, question: "Do you feel grounded", answer: 20)

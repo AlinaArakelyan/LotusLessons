@@ -1,3 +1,6 @@
 class QuestionSerializer < ActiveModel::Serializer
-  attributes :id, :belongs_to, :belongs_to, :question, :answer
+  attributes :id, :question, :answer, 
+  belongs_to :user, 
+  belongs_to :chakra
+
 end

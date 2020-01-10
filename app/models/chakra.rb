@@ -1,0 +1,2 @@
+class Chakra < ApplicationRecord
+end

@@ -3,7 +3,7 @@ class CreateChakras < ActiveRecord::Migration[6.0]
     create_table :chakras do |t|
       t.string :name
       t.string :symbol
-      t.string :description
+      t.text :description
 
       t.timestamps
     end

@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 2020_01_10_214012) do
   create_table "chakras", force: :cascade do |t|
     t.string "name"
     t.string "symbol"
-    t.string "description"
+    t.text "description"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -27,7 +27,7 @@ ActiveRecord::Schema.define(version: 2020_01_10_214012) do
     t.bigint "user_id"
     t.bigint "chakra_id"
     t.string "question"
-    t.integer "answer"
+    t.integer "answer", default: 0
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["chakra_id"], name: "index_questions_on_chakra_id"

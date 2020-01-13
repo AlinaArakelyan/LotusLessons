@@ -4,7 +4,7 @@ class CreateQuestions < ActiveRecord::Migration[6.0]
       t.belongs_to :user
       t.belongs_to :chakra
       t.string :question
-      t.integer :answer
+      t.integer :answer, default: 0
 
       t.timestamps
     end

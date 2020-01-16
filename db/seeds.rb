@@ -17,7 +17,7 @@ Question.reset_pk_sequence
 User.create(name: "Alina")
 
 
-Chakra.create(name: "Root", symbol: "chakra_images/root-chakra-symbol-296x300.png", description: "The root chakra, also known as Muladhara, is the first chakra. It's color is a rich red and it's symbol is a lotus with 4 petals. It's element is Earth. Located at the base of the spine and is often assoicaited with feelings of safety and grounding. The first chakra is associated with the following functions or behavioral characteristics:
+Chakra.create(name: "Root", symbol: "https://7wisdoms.org/wp-content/uploads/2018/06/root-chakra-symbol-296x300.png", description: "The root chakra, also known as Muladhara, is the first chakra. It's color is a rich red and it's symbol is a lotus with 4 petals. It's element is Earth. Located at the base of the spine and is often assoicaited with feelings of safety and grounding. The first chakra is associated with the following functions or behavioral characteristics:
 
     Security, safety
     Survival
@@ -44,7 +44,7 @@ Question.create(user_id: 1, chakra_id: 1, question: "I mostly have everything I 
 Question.create(user_id: 1, chakra_id: 1, question: "I feel connected to nature", answer: 0)
 
 
-Chakra.create(name: "Sacral", symbol: "chakra_images/sacral-chakra-symbol.png", description: "The sarcral chakra, also known as Svadhishthana, is the second chakra. It's color is orange and it's symbol is a circle with 6 petals and a moon crescent. It's element is water, which is why the cresent moon is often in it's symbol, represnetative of the moons connection with water. It is located about 3 inches below the navel, at the center of the lower belly. Furthermore, the symbolism of the moon relates to the feminine menstrual cycle that takes the same number of days to complete and the connection of the sacral chakra with sexual organs and reproduction. The sacral chakra is associated with the following psychological and behavioral functions:
+Chakra.create(name: "Sacral", symbol: "https://7wisdoms.org/wp-content/uploads/2018/06/sacral-chakra-symbol.png", description: "The sarcral chakra, also known as Svadhishthana, is the second chakra. It's color is orange and it's symbol is a circle with 6 petals and a moon crescent. It's element is water, which is why the cresent moon is often in it's symbol, represnetative of the moons connection with water. It is located about 3 inches below the navel, at the center of the lower belly. Furthermore, the symbolism of the moon relates to the feminine menstrual cycle that takes the same number of days to complete and the connection of the sacral chakra with sexual organs and reproduction. The sacral chakra is associated with the following psychological and behavioral functions:
 
     Emotions, feelings
     Relationships, relating
@@ -83,7 +83,7 @@ Question.create(user_id: 1, chakra_id: 2, question: "My creativity and thoughts 
 Question.create(user_id: 1, chakra_id: 2, question: "I am comfrotable expressing my true feelings and desires without being emotioally reactive", answer: 0)
 
 
-Chakra.create(name: "Solar Plexus", symbol: "chakra_images/solar-plexus-chakra-symbol-296x300.png", description: "The solar plexus chakra, also known as Manipura, is the third chakra. It's color is yellow or golden and it's symbol is a lotus with 10 petals and a downward pointing triange at it's center. It's element is fire. It is located at the solar plexus.The main meanings associated with the third chakra are:
+Chakra.create(name: "Solar Plexus", symbol: "https://7wisdoms.org/wp-content/uploads/2018/06/solar-plexus-chakra-symbol-296x300.png", description: "The solar plexus chakra, also known as Manipura, is the third chakra. It's color is yellow or golden and it's symbol is a lotus with 10 petals and a downward pointing triange at it's center. It's element is fire. It is located at the solar plexus.The main meanings associated with the third chakra are:
 
         Will, personal power
         Taking responsibility for one’s life, taking control
@@ -110,7 +110,7 @@ Question.create(user_id: 1, chakra_id: 3, question: "I know how to set boundries
 Question.create(user_id: 1, chakra_id: 3, question: "I feel in control, comfortably making decisions and setting the direction of my life", answer: 0)
 Question.create(user_id: 1, chakra_id: 3, question: "I am independent, self-disciliped and confident ", answer: 0)
 
-Chakra.create(name: "Heart", symbol: "chakra_images/heart-chakra-symbol-296x300.png", description: "The heart chakra, also known as Anahata, is the fourth chakra. It's color is green and it's symbol is two intersecting triangles forming a 6-pointed star in a circle with 12 petals. It's element is air. It is located at the center of the chest. As the middle chakra, it's role is an important one in bridging earthly and spiritual matters. 
+Chakra.create(name: "Heart", symbol: "https://7wisdoms.org/wp-content/uploads/2018/06/heart-chakra-symbol-296x300.png", description: "The heart chakra, also known as Anahata, is the fourth chakra. It's color is green and it's symbol is two intersecting triangles forming a 6-pointed star in a circle with 12 petals. It's element is air. It is located at the center of the chest. As the middle chakra, it's role is an important one in bridging earthly and spiritual matters. 
 
     The main meanings or functions associated with the heart chakra are:
     
@@ -141,7 +141,7 @@ Chakra.create(name: "Heart", symbol: "chakra_images/heart-chakra-symbol-296x300.
     Question.create(user_id: 1, chakra_id: 4, question: "I confident in my ability integrate change, transformation and insights into my life", answer: 0)
 
 
-Chakra.create(name: "Throat", symbol: "chakra_images/throat-chakra-symbol-296x300.png", description: "The Throat chakra, also known as Vishuddha, is the fifth chakra. It's color is a blue turquoise and it's symbol is a circle with 16 petals, holding a downward facing triangle with a circle inside of it. Located at the center of the neck at the level of the throat, it is the passage of the energy between the lower parts of the body and the head. It's element is souhnd. The function of the Throat chakra is driven by the principle of expression and communication.
+Chakra.create(name: "Throat", symbol: "https://7wisdoms.org/wp-content/uploads/2018/06/throat-chakra-symbol-296x300.png", description: "The Throat chakra, also known as Vishuddha, is the fifth chakra. It's color is a blue turquoise and it's symbol is a circle with 16 petals, holding a downward facing triangle with a circle inside of it. Located at the center of the neck at the level of the throat, it is the passage of the energy between the lower parts of the body and the head. It's element is souhnd. The function of the Throat chakra is driven by the principle of expression and communication.
 
     The Throat chakra is associated with the following psychological and behavioral characteristics:
     
@@ -169,7 +169,7 @@ Question.create(user_id: 1, chakra_id: 5, question: "I find it easy to express y
 Question.create(user_id: 1, chakra_id: 5, question: "Respect and authenticity have come to define my interactions with others, and I freely share my truth no matter what the cost", answer: 0)
 Question.create(user_id: 1, chakra_id: 5, question: "I know how to listen to others and make them feel heard", answer: 0)
 
-Chakra.create(name: "Third Eye", symbol: "chakra_images/throat-chakra-symbol-296x300.png", description: "The third eye (brow) chakra, also known as Ajna, is the sixth chakra. Located on the forehead, between the eyebrows, it is the center of intuition and foresight. It's color is purple and it's symbol is the lotus flower and the upside down triangle. The function of the third eye chakra is driven by the principle of openness and imagination. 
+Chakra.create(name: "Third Eye", symbol: "https://7wisdoms.org/wp-content/uploads/2018/06/third-eye-chakra-symbol-300x269.png", description: "The third eye (brow) chakra, also known as Ajna, is the sixth chakra. Located on the forehead, between the eyebrows, it is the center of intuition and foresight. It's color is purple and it's symbol is the lotus flower and the upside down triangle. The function of the third eye chakra is driven by the principle of openness and imagination. 
 
 The third eye chakra is associated with the following psychological and behavioral characteristics:
 
@@ -208,7 +208,7 @@ Question.create(user_id: 1, chakra_id: 6, question: "I see life with clarity, I 
 Question.create(user_id: 1, chakra_id: 6, question: "I am able to easily go with the flow, let go of judgements, and embrace the unknown", answer: 0)
 Question.create(user_id: 1, chakra_id: 6, question: "I have an active and healthy imagination and enjoy being creative, without getting lost in my daydreams", answer: 0)
 
-Chakra.create(name: "Crown", symbol: "chakra_images/crown-chakra-symbol-296x300.png", description: "The crown chakra, also known as Sahasrara, is the seventh chakra. Located at the above or at top of the head, it gives us access to higher states of consciousness as we open to what is beyond our personal preoccupations and visions. It's colors are white or deep purple, and it's symbol is a circle with a thousand petals. It's element is pure light. The function of the Crown chakra is driven by consciousness and gets us in touch with the universal.
+Chakra.create(name: "Crown", symbol: "https://7wisdoms.org/wp-content/uploads/2018/06/crown-chakra-symbol-296x300.png", description: "The crown chakra, also known as Sahasrara, is the seventh chakra. Located at the above or at top of the head, it gives us access to higher states of consciousness as we open to what is beyond our personal preoccupations and visions. It's colors are white or deep purple, and it's symbol is a circle with a thousand petals. It's element is pure light. The function of the Crown chakra is driven by consciousness and gets us in touch with the universal.
 
     The crown chakra is associated with the following psychological and behavioral characteristics:
     

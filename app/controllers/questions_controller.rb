@@ -21,11 +21,9 @@ class QuestionsController < ApplicationController
             question = Question.find(id)
             answer_var = params[:answers][index]
             question.update(answer: answer_var)
+            @questions = Question.order(:id)
         end
-
-        render json: {}
-
-
+        render json: @questions
     end
 
     private
@@ -33,4 +31,8 @@ class QuestionsController < ApplicationController
     def question_params
         params.require(:question).permit(:answer)
     end
+
+    def average
+        
+    end 
 end

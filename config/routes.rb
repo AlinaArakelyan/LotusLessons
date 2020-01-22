@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   
+  resources :poses
   patch "/questions/answers", to: "questions#answers"
 
   resources :users

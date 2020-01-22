@@ -13,6 +13,8 @@ Chakra.destroy_all
 Chakra.reset_pk_sequence
 Question.destroy_all
 Question.reset_pk_sequence
+Pose.destroy_all
+Pose.reset_pk_sequence
 
 
 yoga_data = 
@@ -20,7 +22,7 @@ yoga_data =
 
 
     yoga_data.each do |pose|
-        Pose.create(name: pose.english_name, sanskrit_name: pose.sanskrit_name, image: pose.img_url)
+         Pose.create(name: pose[:english_name], sanskrit_name: pose[:sanskrit_name], image: pose[:img_url])
     end 
 
     # //yoga pose belongs to chakra

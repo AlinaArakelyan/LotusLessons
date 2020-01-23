@@ -16,6 +16,8 @@ class QuestionsController < ApplicationController
         render json: @question
     end 
 
+    # // questions: [how are you, what are you doing]
+
     def answers
         params[:questions].each_with_index do |id, index|
             question = Question.find(id)

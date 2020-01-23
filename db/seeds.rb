@@ -93,8 +93,8 @@ Chakra.create(name: "Sacral", symbol: "https://7wisdoms.org/wp-content/uploads/2
     Therefore, if you have a deficient sacral chakra, you will be more prone to issues such as detachment, emotional coldness, and sexual frigidity. On the other hand, if you have an excessive sacral ")
 
 Question.create(user_id: 1, chakra_id: 2, question: "I know how to enjoy pleasurable things in moderation", answer: 0)
-Question.create(user_id: 1, chakra_id: 2, question: "My creativity and thoughts flows freely, I tend not to overthink things", answer: 0)
-Question.create(user_id: 1, chakra_id: 2, question: "I am comfrotable expressing my true feelings and desires without being emotioally reactive", answer: 0)
+Question.create(user_id: 1, chakra_id: 2, question: "My creativity and thoughts flow freely, I tend not to overthink things", answer: 0)
+Question.create(user_id: 1, chakra_id: 2, question: "I am comfortable expressing my true feelings and desires without being emotioally reactive", answer: 0)
 
 
 Chakra.create(name: "Solar Plexus", symbol: "https://7wisdoms.org/wp-content/uploads/2018/06/solar-plexus-chakra-symbol-296x300.png", description: "The solar plexus chakra, also known as Manipura, is the third chakra. It's color is yellow or golden and it's symbol is a lotus with 10 petals and a downward pointing triange at it's center. It's element is fire. It is located at the solar plexus.The main meanings associated with the third chakra are:
@@ -122,7 +122,7 @@ Chakra.create(name: "Solar Plexus", symbol: "https://7wisdoms.org/wp-content/upl
 
 Question.create(user_id: 1, chakra_id: 3, question: "I know how to set boundries with people, successfully avoiding co-deoendent relationships with others", answer: 0)
 Question.create(user_id: 1, chakra_id: 3, question: "I feel in control, comfortably making decisions and setting the direction of my life", answer: 0)
-Question.create(user_id: 1, chakra_id: 3, question: "I am independent, self-disciliped and confident ", answer: 0)
+Question.create(user_id: 1, chakra_id: 3, question: "I am independent, self-disciplined and confident", answer: 0)
 
 Chakra.create(name: "Heart", symbol: "https://7wisdoms.org/wp-content/uploads/2018/06/heart-chakra-symbol-296x300.png", description: "The heart chakra, also known as Anahata, is the fourth chakra. It's color is green and it's symbol is two intersecting triangles forming a 6-pointed star in a circle with 12 petals. It's element is air. It is located at the center of the chest. As the middle chakra, it's role is an important one in bridging earthly and spiritual matters. 
 
@@ -150,9 +150,9 @@ Chakra.create(name: "Heart", symbol: "https://7wisdoms.org/wp-content/uploads/20
     
     ")
 
-    Question.create(user_id: 1, chakra_id: 4, question: "I feel connected to the people around me and enjoy my emotional and social connections", answer: 0)
+    Question.create(user_id: 1, chakra_id: 4, question: "I feel connected to the people around me, I enjoy healthy emotional and social connections", answer: 0)
     Question.create(user_id: 1, chakra_id: 4, question: "I am able to forgive and let go of grudges, easily letting go of angry thoughts", answer: 0)
-    Question.create(user_id: 1, chakra_id: 4, question: "I confident in my ability integrate change, transformation and insights into my life", answer: 0)
+    Question.create(user_id: 1, chakra_id: 4, question: "I am confident in my ability integrate change, transformation and insights into my life", answer: 0)
 
 
 Chakra.create(name: "Throat", symbol: "https://7wisdoms.org/wp-content/uploads/2018/06/throat-chakra-symbol-296x300.png", description: "The Throat chakra, also known as Vishuddha, is the fifth chakra. It's color is a blue turquoise and it's symbol is a circle with 16 petals, holding a downward facing triangle with a circle inside of it. Located at the center of the neck at the level of the throat, it is the passage of the energy between the lower parts of the body and the head. It's element is souhnd. The function of the Throat chakra is driven by the principle of expression and communication.
@@ -179,8 +179,8 @@ Chakra.create(name: "Throat", symbol: "https://7wisdoms.org/wp-content/uploads/2
     
     Therefore, if you have a deficient throat chakra, you will be more prone to issues such as shyness, inability to express your thoughts, and secrecy. On the other hand, if you have an excessive throat chakra you will be prone to stubbornness, hostile communication, and a tendency to be socially overbearing.")
 
-Question.create(user_id: 1, chakra_id: 5, question: "I find it easy to express your emotions in a healthy way and verbalize my thoughts and ideas", answer: 0)
-Question.create(user_id: 1, chakra_id: 5, question: "Respect and authenticity have come to define my interactions with others, and I freely share my truth no matter what the cost", answer: 0)
+Question.create(user_id: 1, chakra_id: 5, question: "I find it easy to express your emotions in a healthy way, successfully verbalizing my thoughts and ideas", answer: 0)
+Question.create(user_id: 1, chakra_id: 5, question: "Respect and authenticity have come to define my interactions with others, and I freely share my truth no matter the cost", answer: 0)
 Question.create(user_id: 1, chakra_id: 5, question: "I know how to listen to others and make them feel heard", answer: 0)
 
 Chakra.create(name: "Third Eye", symbol: "https://7wisdoms.org/wp-content/uploads/2018/06/third-eye-chakra-symbol-300x269.png", description: "The third eye (brow) chakra, also known as Ajna, is the sixth chakra. Located on the forehead, between the eyebrows, it is the center of intuition and foresight. It's color is purple and it's symbol is the lotus flower and the upside down triangle. The function of the third eye chakra is driven by the principle of openness and imagination. 
@@ -220,7 +220,7 @@ Therefore, if you have a deficient crown chakra, you will be more prone to issue
 
 Question.create(user_id: 1, chakra_id: 6, question: "I see life with clarity, I possess strong intuition, insight, and self-awareness", answer: 0)
 Question.create(user_id: 1, chakra_id: 6, question: "I am able to easily go with the flow, let go of judgements, and embrace the unknown", answer: 0)
-Question.create(user_id: 1, chakra_id: 6, question: "I have an active and healthy imagination and enjoy being creative, without getting lost in my daydreams", answer: 0)
+Question.create(user_id: 1, chakra_id: 6, question: "I have an active and healthy imagination and enjoy being creative, without constantly getting lost in my daydreams", answer: 0)
 
 Chakra.create(name: "Crown", symbol: "https://7wisdoms.org/wp-content/uploads/2018/06/crown-chakra-symbol-296x300.png", description: "The crown chakra, also known as Sahasrara, is the seventh chakra. Located at the above or at top of the head, it gives us access to higher states of consciousness as we open to what is beyond our personal preoccupations and visions. It's colors are white or deep purple, and it's symbol is a circle with a thousand petals. It's element is pure light. The function of the Crown chakra is driven by consciousness and gets us in touch with the universal.
 

@@ -10,10 +10,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_01_22_001101) do
+ActiveRecord::Schema.define(version: 2020_01_27_223459) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "advices", force: :cascade do |t|
+    t.bigint "chakra_id", null: false
+    t.bigint "list_id", null: false
+    t.string "advice"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["chakra_id"], name: "index_advices_on_chakra_id"
+    t.index ["list_id"], name: "index_advices_on_list_id"
+  end
 
   create_table "chakras", force: :cascade do |t|
     t.string "name"
@@ -21,6 +31,15 @@ ActiveRecord::Schema.define(version: 2020_01_22_001101) do
     t.text "description"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "lists", force: :cascade do |t|
+    t.bigint "user_id", null: false
+    t.boolean "done", default: false
+    t.string "advice"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["user_id"], name: "index_lists_on_user_id"
   end
 
   create_table "poses", force: :cascade do |t|
@@ -48,4 +67,7 @@ ActiveRecord::Schema.define(version: 2020_01_22_001101) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  add_foreign_key "advices", "chakras"
+  add_foreign_key "advices", "lists"
+  add_foreign_key "lists", "users"
 end

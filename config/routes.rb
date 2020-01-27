@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   
+  resources :lists
+  resources :advices
   resources :poses
   patch "/questions/answers", to: "questions#answers"
 

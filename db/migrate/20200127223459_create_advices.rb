@@ -3,6 +3,7 @@ class CreateAdvices < ActiveRecord::Migration[6.0]
     create_table :advices do |t|
       t.belongs_to :chakra, null: false, foreign_key: true
       t.string :advice
+      t.boolean :done, default: false 
 
       t.timestamps
     end

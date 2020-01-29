@@ -15,6 +15,8 @@ Question.destroy_all
 Question.reset_pk_sequence
 Pose.destroy_all
 Pose.reset_pk_sequence
+Advice.destroy_all
+Advice.reset_pk_sequence
 
 
 yoga_data = 
@@ -244,4 +246,68 @@ Question.create(user_id: 1, chakra_id: 7, question: "I feel a deep connection to
 Question.create(user_id: 1, chakra_id: 7, question: "I feel a sense of serenity and wholeness despite what is happening around me", answer: 0)
 
 
-# Advice.create(cahkra_id: 1, advice: )
+Advice.create(chakra_id: 1, advice: "Listen to grounding music")
+Advice.create(chakra_id: 1, advice: "Chant LAM repeatedly")
+Advice.create(chakra_id: 1, advice: "Go for walks in nature, if not possible, keep plants in the house to cultivate that connection with nature")
+Advice.create(chakra_id: 1, advice: "Eat grounding foods (think: root vegeatables")
+Advice.create(chakra_id: 1, advice: "Use root chakra crystals such as jasper, black tourmaline, hematite, smoky quartz")
+Advice.create(chakra_id: 1, advice: "Use oils such as sandalwood, patchouli, vetiver, cloves, black pepper, and ginger")
+Advice.create(chakra_id: 1, advice: "Cultivate the feeling of being safe and secure")
+Advice.create(chakra_id: 1, advice: "Connecting to the earth, walking barefoot on the grass or beach")
+
+Advice.create(chakra_id: 2, advice: "Explore creative self-expression")
+Advice.create(chakra_id: 2, advice: "Practice emotional catharsis to release pent up emotions and energies")
+Advice.create(chakra_id: 2, advice: "Identify and work through your sexual blockages")
+Advice.create(chakra_id: 2, advice: "Use sacral chakra crystals such as amber, carnelian, orange calcite, jasper, and moonstone.")
+Advice.create(chakra_id: 2, advice: "Become mindful of your emotional triggers")
+Advice.create(chakra_id: 2, advice: "Identify and explore the root of any addictions you may have")
+Advice.create(chakra_id: 2, advice: "Practice self-care towards your body. This includes loving how your physial body looks, nourishing it with proper nutrition, and giving it proper exercise")
+Advice.create(chakra_id: 2, advice: "Introduce the colors orange, peach and apricot into your life as the color of the sacral chakra is orange")
+Advice.create(chakra_id: 2, advice: "Chant VAM repeatedly")
+
+Advice.create(chakra_id: 3, advice: "Break out of routine and take a risk")
+Advice.create(chakra_id: 3, advice: "Cut ties with critical and negative people")
+Advice.create(chakra_id: 3, advice: "Identify and explore the biggest sources of resistance in your life")
+Advice.create(chakra_id: 3, advice: "Get out in the sun more!")
+Advice.create(chakra_id: 3, advice: "Release any anger you store inside")
+Advice.create(chakra_id: 3, advice: "Use herbs to help ground and clear the solar plexus such as chamomile, rosemary, lemongrass, marshmallow leaf, and ginger.")
+Advice.create(chakra_id: 3, advice: "Stop seeing yourself as a “victim” and let yourself feel empowered")
+Advice.create(chakra_id: 3, advice: "Laugh at yourself when the time calls for it, humor is a great source of personal power and strength")
+Advice.create(chakra_id: 3, advice: "Chant RAM repeatedly")
+
+Advice.create(chakra_id: 4, advice: "Go forest bathing, or to a nearby park if forests are not an option")
+Advice.create(chakra_id: 4, advice: "Let yourself focus on all the postive things that you do and love yourself fully")
+Advice.create(chakra_id: 4, advice: "Establish and maintain clear personal boundaries")
+Advice.create(chakra_id: 4, advice: "Use herbs such as rose, astragalus, holy basil, hawthorn, nettle, hops, and angelica to open and clear the heart chakra.")
+Advice.create(chakra_id: 4, advice: "Allow yourself to receive love")
+Advice.create(chakra_id: 4, advice: "Try meditating or carrying crystals such as jade, malachite, rose quartz, emerald, rhodonite, prehnite, ruby, green fluorite, and chrysocolla")
+Advice.create(chakra_id: 4, advice: "Be thankful and show gratitude")
+Advice.create(chakra_id: 4, advice: "Chant YAM repeatedly")
+
+Advice.create(chakra_id: 5, advice: "Research mantras that resonate with you and chant them")
+Advice.create(chakra_id: 5, advice: "Eat more blueberries, blackberries, blue grapes, currants, kiwifruit, apples, grapefruit, lemons, pears, plums, peaches, figs, and apricots.")
+Advice.create(chakra_id: 5, advice: "Keep a journal of your thoughts and ideas")
+Advice.create(chakra_id: 5, advice: "Breathe into your stomach")
+Advice.create(chakra_id: 5, advice: "Use herbs such as peppermint, elderberry, clove, cinnamon, echinacea, spearmint, fennel, and slippery elm")
+Advice.create(chakra_id: 5, advice: "Try meditating or carrying crystals such as blue kyanite, larimar, tanzanite, azurite, aquamarine, and lapis lazuli")
+Advice.create(chakra_id: 5, advice: "Listen more closely and carefully with a goal of truly understanding the message the other person is trying to relay to you")
+Advice.create(chakra_id: 5, advice: "Chant HAM repeatedly")
+
+Advice.create(chakra_id: 6, advice: "Explore different perspectives and viewpoints")
+Advice.create(chakra_id: 6, advice: "Ground yourself with mindfulness")
+Advice.create(chakra_id: 6, advice: "Get out into the sunlight and surround yourself with light")
+Advice.create(chakra_id: 6, advice: "Use herbs such as mugwort, star anise, saffron, basil, jasmine, lavender, passionflower, rosemary, and blue lotus")
+Advice.create(chakra_id: 6, advice: "Explore any limiting beliefs you may have and try to figure out their origins")
+Advice.create(chakra_id: 6, advice: "Eat more prunes, dates, blackberries, blueberries, figs, raisins, eggplant, purple cabbage, purple kale, purple carrots, and purple potatoes")
+Advice.create(chakra_id: 6, advice: "Become an observer of your thoughts, called Vipassana meditation")
+Advice.create(chakra_id: 6, advice: "Chant OM repeatedly")
+
+Advice.create(chakra_id: 7, advice: "Make time for daily mediation")
+Advice.create(chakra_id: 7, advice: "Take up an energy healing/energy work practice")
+Advice.create(chakra_id: 7, advice: "Keep learning and educating yourself")
+Advice.create(chakra_id: 7, advice: "Simplify and declutter your surroundings")
+Advice.create(chakra_id: 7, advice: "Commit yourself to a spiritual practice")
+Advice.create(chakra_id: 7, advice: "Try meditating or carrying crystals such as selenite, danburite, charoite, labradorite, amethyst, and nuummite")
+Advice.create(chakra_id: 7, advice: "Always remain open to guidance, anything can be a teacher or a guide")
+Advice.create(chakra_id: 7, advice: "Practice loving and authentic affirmations daily")
+Advice.create(chakra_id: 7, advice: "Chant AH repeatedly")

@@ -1,4 +1,4 @@
 class AdviceSerializer < ActiveModel::Serializer
-  attributes :id, :advice
+  attributes :id, :advice, :done
   belongs_to :chakra
 end

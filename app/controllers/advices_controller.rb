@@ -18,7 +18,7 @@ class AdvicesController < ApplicationController
     private
 
     def strong_params
-        params.require(:advice).permit(:chakra, :advice)
+        params.require(:advice).permit(:chakra, :advice, :done)
     end
 
 end

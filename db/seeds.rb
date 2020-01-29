@@ -242,3 +242,6 @@ Chakra.create(name: "Crown", symbol: "https://7wisdoms.org/wp-content/uploads/20
 Question.create(user_id: 1, chakra_id: 7, question: "I feel connected to my Higher Self and the universe, allowing me to easily access my inner wisdom", answer: 0)
 Question.create(user_id: 1, chakra_id: 7, question: "I feel a deep connection to all life and tend to look at life through a big picture mindset", answer: 0)
 Question.create(user_id: 1, chakra_id: 7, question: "I feel a sense of serenity and wholeness despite what is happening around me", answer: 0)
+
+
+# Advice.create(cahkra_id: 1, advice: )

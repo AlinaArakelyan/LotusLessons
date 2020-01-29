@@ -9,5 +9,16 @@ class AdvicesController < ApplicationController
         @advice = Advice.find(params[:id])
         render json: @advice
     end 
+    
+    def create
+        @advice = Advice.create(strong_params)
+        render json: @advice
+    end
+
+    private
+
+    def strong_params
+        params.require(:advice).permit(:chakra, :advice)
+    end
 
 end

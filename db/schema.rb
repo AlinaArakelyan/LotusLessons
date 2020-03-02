@@ -32,13 +32,6 @@ ActiveRecord::Schema.define(version: 2020_01_27_223459) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "lists", force: :cascade do |t|
-    t.boolean "done", default: false
-    t.string "advice"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
   create_table "poses", force: :cascade do |t|
     t.string "name"
     t.string "sanskrit_name"
